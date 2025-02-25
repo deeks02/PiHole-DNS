@@ -16,22 +16,22 @@ The Pi-hole® is a DNS sinkhole running on a Raspberry Pi 5 within my private ho
 
 ## How It Works:
 
-### 1. Blocklists: The Foundation
+### 1. Blocklists:
 - Pi-hole uses blocklists (also called "gravity" lists) as its core mechanism for blocking unwanted domains.
 - These lists are text files containing domain names that Pi-hole should block.
 - They often include advertising servers, tracking domains, malware sites, or specific domains like `facebook.com` that you want to block.
 
-### 2. Gravity Update
+### 2. Gravity Update:
 - Pi-hole periodically updates its gravity database by downloading blocklists from their sources.
 - This keeps the blocklists up-to-date with the latest known unwanted domains.
 
-### 3. DNS Query Interception
+### 3. DNS Query Interception:
 - When a device on your network makes a DNS query (e.g., trying to access `facebook.com`), Pi-hole intercepts it.
 
-### 4. Blocklist Lookup
+### 4. Blocklist Lookup:
 - Pi-hole checks the requested domain (`facebook.com` in this example) against its gravity database (the compiled blocklists).
 
-### 5. Blocking Decision
+### 5. Blocking Decision:
 - **If `facebook.com` is found in the blocklist:**
   - Pi-hole marks it as a blocked domain.
   - It prevents the query from being forwarded to the upstream DNS server.
@@ -41,10 +41,10 @@ The Pi-hole® is a DNS sinkhole running on a Raspberry Pi 5 within my private ho
   - Pi-hole considers it a permitted domain.
   - The query is forwarded to the upstream DNS server for resolution.
 
-### 6. Action Taken
+### 6. Action Taken:
 - Because `facebook.com` was on the blocklist, any device trying to connect to it is unable to.
 
-### 7. Logging
+### 7. Logging:
 - Pi-hole logs all DNS queries, including blocked ones.
 - You can view these logs to analyze which domains are being blocked and which devices are making the requests.
 
