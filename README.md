@@ -49,3 +49,13 @@ The Pi-hole® is a DNS sinkhole running on a Raspberry Pi 5 within my private ho
 - You can view these logs to analyze which domains are being blocked and which devices are making the requests.
 
 ## Setting Up PiHole:
+
+![Setup image 1](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Setup_1.jpg)
+
+![Setup image 2](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Setup_2.jpg)
+
+![Setup image 3](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Setup_3.jpg)
+
+![Login Page](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Login_Page.jpg)
+
+## DNS In Action:
