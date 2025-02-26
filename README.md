@@ -91,10 +91,10 @@ The Pi-hole® is a DNS sinkhole running on a Raspberry Pi 5 within my private ho
 
 ### The Effectiveness of PiHole in adblocking:
 
-`While PiHole is Inactive`
+While PiHole is `Inactive`
 ![Ads without pihole](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_UnBl.png)
 
-`While PiHole is Active`
+While PiHole is `Active`
 ![Ads with pihole](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_Blocked.png)
 
 ## Conclusion:
