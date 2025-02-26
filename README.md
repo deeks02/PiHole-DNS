@@ -62,22 +62,39 @@ The Pi-hole® is a DNS sinkhole running on a Raspberry Pi 5 within my private ho
 ### Configuring Domain list and Adlists from the Firebog.net website
 
 ![Blocklist site](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/BlockList.jpg)
+
 ![Domain list](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Domain_list.png)
+
 ![Adlist](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_List.jpg)
 
 ### Once connected the DNS does its job by restricting ads and blocking domain access while also tracking logs
 
 ![Dashboard](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Dashboard.jpg)
+
 ![DNS PiChart](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/DNS_PiChart.jpg)
+
 ![Allowed logs](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Logs_Alvd.jpg)
+
 ![Blocked logs for adds](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Logs_Blkd.png)
+
+### Below are the screenshots where access to YouTube is Restricted
+
 ![Youtube blocked logs](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/YT_Blk_Logs.png)
+
 ![Youtube site restricted](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/YT_Blocked.png)
+
+### Below are the screenshots where access to Facebook is Restricted
+
 ![Facebook blocked logs](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/FB_Blk_Logs.png)
+
 ![Facebook site restricted](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/FB_Blocked.png)
 
 ### The Effectiveness of PiHole in adblocking:
+
+`While PiHole is Inactive`
 ![Ads without pihole](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_UnBl.png)
+
+`While PiHole is Active`
 ![Ads with pihole](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_Blocked.png)
 
 ## Conclusion:
