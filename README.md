@@ -58,4 +58,32 @@ The Pi-hole® is a DNS sinkhole running on a Raspberry Pi 5 within my private ho
 
 ![Login Page](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Login_Page.jpg)
 
-## DNS In Action:
+## PiHole In Action:
+### Configuring Domain list and Adlists from the Firebog.net website
+
+![Blocklist site](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/BlockList.jpg)
+![Domain list](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Domain_list.png)
+![Adlist](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_List.jpg)
+
+### Once connected the DNS does its job by restricting ads and blocking domain access while also tracking logs
+
+![Dashboard](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Dashboard.jpg)
+![DNS PiChart](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/DNS_PiChart.jpg)
+![Allowed logs](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Logs_Alvd.jpg)
+![Blocked logs for adds](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Logs_Blkd.png)
+![Youtube blocked logs](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/YT_Blk_Logs.png)
+![Youtube site restricted](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/YT_Blocked.png)
+![Facebook blocked logs](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/FB_Blk_Logs.png)
+![Facebook site restricted](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/FB_Blocked.png)
+
+### The Effectiveness of PiHole in adblocking:
+![Ads without pihole](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_UnBl.png)
+![Ads with pihole](https://github.com/deeks02/PiHole-DNS/blob/main/Screenshots/Ads_Blocked.png)
+
+## Conclusion:
+
+PiHole-DNS is a powerful and efficient way to enhance privacy, security, and performance across your home network. By leveraging Pi-hole’s robust blocklist functionality, this project ensures that unwanted ads, trackers, and malicious domains are effectively blocked at the DNS level.  
+
+With regular gravity updates, detailed logging, and full control over domain filtering, PiHole-DNS provides a seamless, network-wide ad-blocking experience. Running on a Raspberry Pi 5 within a private home lab environment, this setup is a great example of self-hosting and network security in action.  
+
+**Always stay in control of your DNS. Keep your network clean, fast, and private!** 
